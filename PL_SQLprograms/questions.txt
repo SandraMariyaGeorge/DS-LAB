@@ -1,0 +1,25 @@
+Write a PL/SQL block that uses a cursor to fetch and 
+display the names of all employees with a salary above a given threshold 
+from an EMPLOYEES table.(Basic Cursor Usage)
+
+Create a cursor with parameters that retrieves orders from an ORDERS table
+based on a specified date range. Use this cursor to display the order IDs 
+and customer names within that date range.(Cursor with Parameters)
+
+Write a PL/SQL program using a cursor to calculate and display the average salary 
+for each department in a DEPARTMENTS table.
+
+Create a BEFORE INSERT trigger on an EMPLOYEES table to ensure that the SALARY value
+is above a certain minimum threshold. If the salary is below the threshold, raise an error.
+
+Create an AFTER UPDATE trigger on an EMPLOYEES table that logs the old and new salary
+of an employee whenever a salary update occurs.Store this information in an EMPLOYEE_AUDIT table.
+
+Write a BEFORE DELETE trigger on an ORDERS table that prevents deletion if the order's status
+is "SHIPPED". Raise a custom error message if an attempt is made to delete such an order.
+
+Write a trigger that uses a cursor to check if the items in a new order already exist 
+in the INVENTORY table. If they do, allow the insert; otherwise, prevent it.
+
+Write a PL/SQL block using a cursor to fetch the table names in a schema, and use dynamic SQL
+to count the number of rows in each table.
